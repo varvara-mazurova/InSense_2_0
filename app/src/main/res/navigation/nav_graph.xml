@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_mainFragment_to_bindingFragment"
             app:destination="@id/bindingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/calendarFragment"
@@ -118,4 +121,9 @@
         android:name="com.example.insense.ui.fragments.Binding.BindingFragment"
         android:label="fragment_binding"
         tools:layout="@layout/fragment_binding" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.insense.ui.fragments.Settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
